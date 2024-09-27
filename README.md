@@ -24,14 +24,22 @@ This script analyzes Python code and generates a visual graph of class relations
 
 2. Install the required packages (using pip):
    
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-```bash
-python class_graph.py /path/to/your/python/project/
-```
+   ```bash
+   python class_graph.py /path/to/your/python/project/
+   ```
+## Notes
 
+- The script assumes that your Python code is syntactically correct. It might skip files with syntax errors.
+- You can customize the output filename and format by modifying the `graph.render()` call in the script.
+- For complex projects, the graph might become large. Consider using Graphviz's layout options to improve readability.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
   
